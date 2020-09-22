@@ -31,4 +31,18 @@ class FizzBuzzTest {
         String actual = FizzBuzz.isFizzBuzz(8);
         assertEquals(expected,actual);
     }
+
+    @Test
+    void isFizzBuzz5() {
+        String expected = "Fizz";
+        String actual = FizzBuzz.isFizzBuzz(23);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    void isFizzBuzz6() {
+        String expected = "Buzz";
+        String actual = FizzBuzz.isFizzBuzz(56);
+        assertEquals(expected,actual);
+    }
 }
